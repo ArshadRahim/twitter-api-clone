@@ -1,0 +1,19 @@
+/*footer styles */
+
+.footer-main {
+  margin: auto;
+  width: 90%;
+  height: 2%;
+}
+
+.footer-div {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-content: center;
+}
+.footer-post-secondary {
+  padding-top: 0px;
+  margin-top: 0px;
+  height: 16px;
+}

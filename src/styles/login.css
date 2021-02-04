@@ -1,0 +1,191 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+.login-page-main-container {
+  width: 100%;
+  height: 100vh;
+}
+
+.login-form {
+  height: 70vh;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  margin: auto;
+  width: 44%;
+}
+
+.login-form i {
+  margin: 14px auto;
+  color: rgba(29, 161, 242, 1);
+  font-size: 38px;
+}
+
+.login-form h2 {
+  font-size: 28px;
+  margin: 6px auto;
+}
+.login-form input {
+  display: block;
+  width: 84%;
+  margin: 0.4em auto;
+  height: 50px;
+  border-radius: 4px;
+  border: solid 1px rgb(212, 208, 208);
+  padding-left: 5px;
+  font-size: 18px;
+}
+
+.login-form input:focus {
+  outline-color: rgb(27, 149, 224);
+}
+.login-form .btn {
+  max-height: 48px;
+  margin: 8px auto;
+  border-radius: 9999px;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  line-height: 0;
+  display: flex;
+  overflow-wrap: break-word;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-grow: 1;
+  width: 86%;
+  box-sizing: border-box;
+  cursor: pointer;
+  outline-style: none;
+  transition-property: background-color, box-shadow;
+  transition-duration: 0.2s;
+  height: 29px;
+  padding: 0px 30px;
+}
+
+.flex-center {
+  display: flex;
+  color: rgb(27, 149, 224);
+  justify-content: center;
+  align-items: flex-end;
+}
+.flex-center a {
+  text-decoration: none;
+  color: inherit;
+  cursor: pointer;
+}
+
+/*Model styles*/
+
+.Model-main-container {
+  background-color: white;
+  width: 44%;
+  height: 92vh;
+  border-radius: 3%;
+  position: fixed;
+  left: 28%;
+  right: 0;
+  top: 4%;
+  bottom: 0;
+  z-index: 1;
+  display: none;
+}
+
+.Model-main-container i {
+  display: block;
+  text-align: center;
+  margin: auto;
+  font-size: 28px;
+  color: rgb(27, 149, 224);
+}
+.Model-main-container h5 {
+  margin-left: 30px;
+  font-size: 28px;
+}
+
+.use-email {
+  font-size: 16px;
+  text-decoration: none;
+  margin-left: 30px;
+  color: rgb(27, 149, 224);
+  font-weight: normal;
+}
+.use-email:hover {
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.Model-main-container p {
+  font-size: 16px;
+  font-weight: normal;
+  color: rgb(95, 95, 95);
+  margin: auto;
+  width: 90%;
+}
+.Model-main-container h6 {
+  margin: 24px 0px 2px 30px;
+  font-size: 16px;
+  color: rgb(24, 23, 23);
+}
+
+.btn-next {
+  display: inline-block;
+  border-radius: 9999px;
+  font-size: 15px;
+  font-weight: 700;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica,
+    Arial, sans-serif;
+  line-height: 1.3125;
+  display: flex;
+  overflow-wrap: break-word;
+  justify-content: center;
+  align-items: center;
+  flex-direction: row;
+  flex-grow: 1;
+  max-width: 10%;
+  box-sizing: border-box;
+  cursor: pointer;
+  outline-style: none;
+  transition-property: background-color, box-shadow;
+  transition-duration: 0.2s;
+  min-height: 29px;
+  margin-left: 520px;
+  margin-top: -24px;
+}
+.signup-input {
+  display: block;
+  width: 90%;
+  margin: 1em auto;
+  height: 50px;
+  border-radius: 4px;
+  border: solid 1px rgb(212, 208, 208);
+  padding-left: 5px;
+  font-size: 18px;
+}
+.signup-input:focus {
+  outline-color: rgb(27, 149, 224);
+}
+.signup-input:focus {
+  font-size: 14px;
+  color: rgb(27, 149, 224);
+}
+
+.grid-items {
+  margin: 14px;
+  justify-content: center;
+  display: grid;
+  grid-template-columns: 50% 20% 20%;
+  grid-column-gap: 10px;
+}
+.grid-items input {
+  padding-top: 0px;
+  padding-left: 4px;
+  height: 50px;
+  border-radius: 4px;
+  border: solid 1px rgb(212, 208, 208);
+}
+.grid-items input:focus {
+  outline-color: rgb(27, 149, 224);
+}
